@@ -14,6 +14,19 @@ Consider especially how we will know if your code is correct, without having to 
 You may also wish to consider how your code handles edge cases such as hyphenated words.
 ```
 
+### User Stories
+
+```
+As a User, 
+So I can cheat in scrabble,
+I want to know which words are anagrams of a given word.
+
+As a User, 
+So I can use even more words,
+I want to include proper nouns, acroymns and initialism.
+    - it is done when it solves anagrams with capital letters
+```
+
 ### How to run the app
 
 ##### Download the app
