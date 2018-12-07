@@ -50,3 +50,17 @@ From an initial look, I think this can be solved in a few steps.
 1. create a method to be used via irb
 2. iterate through the lines of the txt file given.
 3. return the line of the .txt file if, when alphabetically sorted, it matches the alphabetically sorted of a given word.
+
+##### Reflection
+1. This app could have been made as a single .rb file on root with no classes. I choose this path as I wanted to allow for 
+easy extension however on reflection this may have been ambitious given the one hour timeframe. 
+2. The logic for this task was pretty straight forward once I realised anagrams are identical when sorted. 
+3. I am not comfortable with my use of an array to show anagrams. I originally had the code puts the result of each successful
+iteration (which looked better, and was neater code) but testing if an array was the simplest solution given the time constraint. 
+
+##### How would I extend this app
+1. Work out and implement how to incorporate hyphens. Currently, hypens will only be solved correctly if both the given word
+and the anagram have hyphens in them.
+2. I would make a better interface for the user. Currently they run the command and get a result via an array. I would
+like to have put a nice message and interperlated the results.
+
